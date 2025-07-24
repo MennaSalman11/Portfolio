@@ -1,0 +1,28 @@
+.aboutContainer{
+    height:80vh;
+    background-color: #1abc9c;
+    flex-direction: column;
+    position:relative;
+}
+.aboutContainer::after{
+  content: "";
+  position: absolute;
+  left: 55%;
+  top:46%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background-color: #ebedef; 
+
+}
+.aboutContainer::before{
+  content: "";
+  position: absolute;
+  left:45%;
+  top:46%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background-color: #ebedef; 
+
+}

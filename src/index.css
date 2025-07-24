@@ -1,0 +1,12 @@
+#root {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+     color: white;
+    background-color: #1abc9c;
+    border:none;
+    border-radius: 7px;
+}
